@@ -1,0 +1,17 @@
+button.print_receipt, button.delete-row{
+	display: none;
+}
+.delete-row {
+    display: none;
+}
+.summary_section div{
+	text-align: right;
+}
+
+.company_info h1{
+	font-size: 25px;
+}
+
+.company_info address{
+	font-size: 15px;
+}
