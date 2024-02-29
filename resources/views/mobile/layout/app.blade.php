@@ -120,7 +120,7 @@
             console.log(`Decoded text: ${decodedText}`, decodedResult);
             window.location.href = decodedText; // Redirect to the URL contained in the QR code
         };
-        const config = { fps: 10, qrbox: { width: 250, height: 50 } };
+        const config = { fps: 10, qrbox: { width: 250, height: 250 } };
 
         // Start scanning with the back camera
         html5QrCode.start(
